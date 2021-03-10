@@ -1,0 +1,19 @@
+@import "base.css";
+
+h1 {
+	font-family: 'CooperBlack';
+	color: #29ace2;
+	font-size: 40px;
+	margin: 20px 0 20px 20px;
+}
+
+#map {
+	width: 940px;
+	padding: 30px;
+	background: #eeffff;
+	margin: 0 auto;
+}
+
+.info {
+	font-size: 13px;
+}

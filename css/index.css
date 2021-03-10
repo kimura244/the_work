@@ -1,0 +1,85 @@
+@import "base.css";
+
+#top_img {
+	position: relative;
+
+}
+
+#main_img {
+	border-top: 15px solid #2e3192;
+	border-bottom: 15px solid #2e3192;
+	width: 1000px;
+}
+
+.flexslider {
+	width: 1000px;
+	height: 410px;
+	background: none !important;
+	position: absolute !important;
+	top: 15px;
+	left: 0;
+}
+
+li.second, li.first {
+	display: none;
+}
+
+#catchcopy {
+	width: 1000px;
+	height: 410px;
+}
+
+#btn_menu ul li {
+	width: 182px;
+	float: left;
+	margin: 0 9px;
+}
+
+#btn_menu ul li a {
+	display: inline-block;
+	width: 182px;
+	height: 81px;
+}
+
+#btn_menu ul li img {
+	width: 182px;
+	height: 81px;
+}
+
+#btn_menu ul li p {
+	font-size: 10px;
+}
+
+#btn_menu ul li .more {
+	font-size: 14px;
+	color: #29aae3;
+}
+#aka {
+	width: 50%;
+}
+#ao {
+	width: 50%;
+	float: right;
+}
+
+
+#dd {
+	width: 400px !important;
+	margin-top: 30px !important;
+	float: left;
+}
+.aa {
+	margin-left: 100px;
+}
+.cc {
+	margin-right: 100px;
+}
+
+
+html {
+	height: 150% !important;
+}
+
+#dd img {
+	float:right;
+}

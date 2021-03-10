@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd,
+table, caption, th, td, img, form {
+	margin: 0;
+	padding: 0;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+	background-image:url(image);
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none; }
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	width: 1000px;
+	margin: 0 auto;
+	overflow:scroll;
+}
+
+input:focus {
+	-webkit-box-shadow: 0 0 5px 3px #aaf;
+	-moz-box-shadow: 0 0 5px 3px #aaf;
+	box-shadow: 0 0 5px 3px #aaf;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+html,body{
+    height:100%;
+}
+
+/* フォント　cooperblack読み込み */
+@font-face {
+	font-family: 'CooperBlack';
+	src: url('/COOPBL.TTF') format('truetype');
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+/*--- ページ基本デザイン ---*/
+#wrapper {
+	margin: 0 auto;
+	width: 1000px;
+    position: relative;
+    height:auto !important; /*IE6対策*/
+    height: 100%; /*IE6対策*/
+    min-height: 100%;
+}
+
+/* ヘッダー */
+#header {
+	width: 1000px;
+	height: 129px;
+	border-bottom: 2px solid #bfbfbf;
+}
+
+#header #logo {
+	float: left;
+}
+
+#header #logo a {
+	width: 415px;
+	height: 120px;
+	display: block;
+}
+
+#header #menu {
+	float: right;
+}
+
+#header #menu ul {
+	height: 50px;
+	margin-top: 50px;
+}
+
+#header #menu ul li {
+	float: left;
+	line-height: 50px;
+	margin: 0 8px;
+}
+
+#header #menu ul li a {
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	color: #666;
+}
+
+#contents {
+	padding-bottom:120px; /*フッターの高さと同じ*/
+}
+
+/* フッター */
+#footer {
+	margin-top: 40px;
+	border-top: 2px solid #bfbfbf;
+	width: 1000px;
+	position:absolute;
+    bottom:0;
+}
+
+#footer p {
+	font-size: 12px;
+	text-align: right;
+	color: #333;
+	padding: 10px;
+}

@@ -1,0 +1,18 @@
+@import "base.css";
+
+h1 {
+	font-family: 'CooperBlack';
+	color: #29ace2;
+	font-size: 40px;
+	margin: 20px 0 20px 20px;
+}
+
+.btn {
+	display: block;
+	margin: 40px auto;
+}
+
+#main {
+	display: block;
+	margin: 0 auto;
+}
